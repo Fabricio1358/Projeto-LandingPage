@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    font-family: inter;
+}
+
+#logo{
+    margin: 50px;
+}
+
+#titulo-margem{
+    margin-top: 35px;
+    margin-left: 150px;
+}
+
+#texto-margem{
+    margin-top: 40px;
+    margin-left: 150px;
+    padding-bottom: 100px;
+}
+
+#menu-superior{
+    background-image: url(Imagens/fundo.margem.svg);
+    color: aliceblue;
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+   margin: 50px 0px 50px 100px;
+   padding: 25px;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 60px;
+}
+
+#video{
+    margin: 50px 15px 50px 125px;
+}
+
+#texto-video{
+    text-align: justity;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding-bottom: 55px;
+}
+
+#titulo-carrossel{
+    padding-top: 60px;
+    text-align: center;
+    color: #EAECE5;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#leonardo{
+    margin-left: 67px;
+}
+
+.card{
+    margin-top: 100px;
+}
+
+#samantha{
+    display: none;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+.seta{
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.3s;
+}
+
+#formulario{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#titulo-formulario{
+    color: black;
+    text-align: center;
+}
+
+input{
+    Width: 350px;
+    Height: 50px;
+    background-color: #EAECE5;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    Height: 50px;
+    Width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 65px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3ba7d4;
+    color: #EAECE5;
+    transform: translateY(-7px);
+    transition-duration: 0.3s;
+    box-shadow: 0px 15px 10px #0a3b5c38;
+}
